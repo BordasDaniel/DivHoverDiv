@@ -1,0 +1,65 @@
+.info{
+overflow: hidden;
+height: 300px;
+width: 250px;
+position: relative;
+margin: 50px auto;
+}
+
+.info img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+
+.info .caption{
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.69);
+    transition: 0.7s;
+    text-align: center;
+}
+
+.info .caption .content{
+    position: relative;
+    top: 21%;
+    color: #fff;
+}
+
+.info .caption .content button{
+border: 0;
+background: #9a1919;
+padding: 7px;
+color: #fff;
+}
+
+.info:hover .caption{
+    top: 0px;
+}
+
+.info:hover img{
+    transform: scale(1.5);
+}
+
+.content button{
+height: 45px;
+width: 80px;
+margin-top: 20px;
+padding: 0px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+}
+
+.masodik{
+height: 45px;
+width: 80px;
+margin-top: 20px;
+padding: 0px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+}
